@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+:root{
+    font-family: "Silkscreen", sans-serif;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 20px;
+}
+
+h1{
+    color:rgb(143, 210, 255);
+
+    font-size:80px;
+}
+
+.border{
+    border: 5px solid rgb(138, 175, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.acertou{
+    color:green;
+    
+     font-size: xx-large;
+}
+.errou{
+    color:red;
+    font-size: xx-large;
+}
+
+button{
+    background-color: rgba(0, 43, 122, 0.623);
+    color:rgb(255, 255, 255);
+    width: 85px;
+    height: 50px;
+    font-size:30px;
+    border: none;
+    font-family: "Silkscreen";
+    border-radius: 30%;
+
+}
+
+input{
+    border: none;
+    background: none;
+    caret-color: aqua;
+    border-bottom: 1px solid white;
+}
+
+
+#secret{
+    color:rgb(167, 237, 255);
+    font-size: 50px;
+    
+    
+}
+
+#concha{
+    width: 600px;
+    position: absolute;
+    left: -150px;
+    bottom: 0;
+}
+
+#shark{
+    width: 600px;
+    position:absolute;
+    right: -150px;
+    bottom:0;
+}
+
+@media (max-width: 600px) {
+    #concha{
+        width: 350px;
+        left: -80px;
+        bottom:0;
+        
+    }
+    
+    #shark{
+        width: 350px;
+        right: -80px;
+        bottom:0;
+    }
+
+    h1{
+       align-items: center;
+       font-size : 50px;
+    }
+}
